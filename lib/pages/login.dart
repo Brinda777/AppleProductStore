@@ -11,7 +11,7 @@ class login extends StatefulWidget {
   @override
   State<login> createState() => _loginState();
 }
-class _loginState extends State<login> 
+class _loginState extends State<login> {
   bool _obSecured = true;
   String name = "";
   bool loginbutton = false;
