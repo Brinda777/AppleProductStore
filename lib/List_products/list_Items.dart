@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:online_mobile/widget/FLoatingbutton/cart.dart';
 import 'package:online_mobile/widget/FLoatingbutton/cart_model.dart'
@@ -82,6 +82,8 @@ class _list_laptopState extends State<list_laptop> {
     "https://i.pcmag.com/imagery/articles/07fOXHEXdbQv0yowaTqfmsY-43.fit_lim.v1646770013.jpg",
   ];
 
+  get badges => null;
+
   @override
   Widget build(BuildContext context) {
     // ignore: unused_local_variable
@@ -99,7 +101,7 @@ class _list_laptopState extends State<list_laptop> {
                         )));
           },
           backgroundColor: Color(0xfff123456),
-          child: Badge(
+          child: badges.Badge(
             badgeContent: Consumer<CartProvider>(
               builder: (context, value, child) {
                 return Text(
@@ -108,11 +110,12 @@ class _list_laptopState extends State<list_laptop> {
                 );
               },
             ),
-            animationDuration: Duration(milliseconds: 300),
-            child: Icon(
-              Icons.shopping_cart_checkout_rounded,
-              size: 30,
-            ),
+            badgeAnimation: badges.BadgeAnimation.rotation(
+                animationDuration: Duration(seconds: 1),
+                colorChangeAnimationDuration: Duration(seconds: 1),
+                loopAnimation: false,
+                curve: Curves.fastOutSlowIn,
+                colorChangeAnimationCurve: Curves.easeInCubic),
           ),
         ),
         appBar: AppBar(
