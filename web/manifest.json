@@ -1,6 +1,6 @@
 {
-    "name": "apple_store",
-    "short_name": "apple_store",
+    "name": "online_mobile",
+    "short_name": "online_mobile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

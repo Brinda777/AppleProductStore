@@ -6,7 +6,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:online_mobile/Avialable_product/14promax.dart';
 import 'package:online_mobile/firestore/database.dart';
-
 import 'package:online_mobile/pages/home.dart';
 import 'package:online_mobile/pages/login.dart';
 import 'package:online_mobile/services/notification_service.dart';
@@ -37,7 +36,7 @@ class _AppleState extends State<Apple> {
       child: Builder(builder: (BuildContext context) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: HomePage(),   
+          home: HomePage(),
           themeMode: ThemeMode.light,
           theme: MyTheme.lightTheme(context),
           darkTheme: MyTheme.darkTheme(context),

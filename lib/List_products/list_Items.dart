@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart' as badges;
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:online_mobile/widget/FLoatingbutton/cart.dart';
 import 'package:online_mobile/widget/FLoatingbutton/cart_model.dart'
@@ -8,6 +8,7 @@ import 'package:online_mobile/widget/FLoatingbutton/db_helper.dart';
 import 'package:provider/provider.dart';
 
 import '../services/notification_service.dart';
+// import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class list_laptop extends StatefulWidget {
   const list_laptop({super.key});
@@ -98,7 +99,7 @@ class _list_laptopState extends State<list_laptop> {
                         )));
           },
           backgroundColor: Color(0xfff123456),
-          child: badges.Badge(
+          child: Badge(
             badgeContent: Consumer<CartProvider>(
               builder: (context, value, child) {
                 return Text(
@@ -107,12 +108,11 @@ class _list_laptopState extends State<list_laptop> {
                 );
               },
             ),
-            badgeAnimation: badges.BadgeAnimation.rotation(
-                animationDuration: Duration(seconds: 1),
-                colorChangeAnimationDuration: Duration(seconds: 1),
-                loopAnimation: false,
-                curve: Curves.fastOutSlowIn,
-                colorChangeAnimationCurve: Curves.easeInCubic),
+            animationDuration: Duration(milliseconds: 300),
+            child: Icon(
+              Icons.shopping_cart_checkout_rounded,
+              size: 30,
+            ),
           ),
         ),
         appBar: AppBar(

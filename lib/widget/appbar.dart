@@ -18,7 +18,7 @@ class MyAppBar extends StatelessWidget {
                 padding: EdgeInsets.only(left: 20, bottom: 50),
                 height: 210 - 27,
                 decoration: BoxDecoration(
-                    color: Color(0xff123456),
+                    color: Colors.black,
                     borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(60),
                         bottomRight: Radius.circular(60))),
@@ -40,8 +40,8 @@ class MyAppBar extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage:
-                              AssetImage("assets/images/applehome.jpg"),
-                          radius: 70,
+                              AssetImage("assets/images/applelogo.jpg"),
+                          radius: 60,
                         ),
                       )
                     ],

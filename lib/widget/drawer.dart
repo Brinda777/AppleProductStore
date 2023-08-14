@@ -14,14 +14,14 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: Color.fromARGB(255, 128, 83, 205),
+        color: Colors.black,
         child: ListView(children: [
           Container(
             height: 220,
             child: DrawerHeader(
                 padding: EdgeInsets.zero,
                 child: UserAccountsDrawerHeader(
-                  decoration: BoxDecoration(color: Colors.deepPurple),
+                  decoration: BoxDecoration(color: Colors.black),
                   accountName: Padding(
                     padding: const EdgeInsets.only(top: 2),
                     child: Text(
@@ -34,16 +34,9 @@ class MyDrawer extends StatelessWidget {
                   ),
                   accountEmail: Padding(
                     padding: const EdgeInsets.only(bottom: 20),
-                    child: Text(
-                      "nightowlsbuisness@gmail.com",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17,
-                      ),
-                    ),
                   ),
                   currentAccountPicture: CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/apple.avif"),
+                    backgroundImage: AssetImage("assets/images/applelogo.jpg"),
                     radius: 65,
                   ),
                 )),
@@ -58,7 +51,7 @@ class MyDrawer extends StatelessWidget {
               size: 30,
             ),
             title: Material(
-              color: Color.fromARGB(255, 128, 83, 205),
+              color: Colors.black,
               child: InkWell(
                 splashColor: Colors.blue,
                 onTap: () {
@@ -85,7 +78,7 @@ class MyDrawer extends StatelessWidget {
               size: 30,
             ),
             title: Material(
-              color: Color.fromARGB(255, 128, 83, 205),
+              color: Colors.black,
               child: InkWell(
                 splashColor: Colors.blue,
                 onTap: () {
@@ -109,7 +102,7 @@ class MyDrawer extends StatelessWidget {
               size: 30,
             ),
             title: Material(
-              color: Color.fromARGB(255, 128, 83, 205),
+              color: Colors.black,
               child: InkWell(
                 splashColor: Colors.blue,
                 onTap: () {
@@ -133,7 +126,7 @@ class MyDrawer extends StatelessWidget {
               size: 30,
             ),
             title: Material(
-              color: Color.fromARGB(255, 128, 83, 205),
+              color: Colors.black,
               child: InkWell(
                 splashColor: Colors.blue,
                 onTap: () {
@@ -157,7 +150,7 @@ class MyDrawer extends StatelessWidget {
               size: 30,
             ),
             title: Material(
-              color: Color.fromARGB(255, 128, 83, 205),
+              color: Colors.black,
               child: InkWell(
                 splashColor: Colors.blue,
                 onTap: () async => {

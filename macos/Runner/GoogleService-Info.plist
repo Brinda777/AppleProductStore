@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>813360799471-6jcl099tckcitgt4gcb7iglsk2v8cjss.apps.googleusercontent.com</string>
+	<string>936009062615-kuvphpnl28a4ijhthtvvm9cem446aq2t.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.813360799471-6jcl099tckcitgt4gcb7iglsk2v8cjss</string>
+	<string>com.googleusercontent.apps.936009062615-kuvphpnl28a4ijhthtvvm9cem446aq2t</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>936009062615-2c3o8oc09o24l8ld6vst41ui77jdt9f6.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCcIZjmJumZ5NCwgFrmwam1OwwgVlR22Uc</string>
+	<string>AIzaSyDzPRU_7z89bz7G_I3DN4J_3WjdGHkOThA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>813360799471</string>
+	<string>936009062615</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.appleStore.RunnerTests</string>
+	<string>com.example.onlineMobile</string>
 	<key>PROJECT_ID</key>
-	<string>apple-store-b4336</string>
+	<string>online-mobile-a1e30</string>
 	<key>STORAGE_BUCKET</key>
-	<string>apple-store-b4336.appspot.com</string>
+	<string>online-mobile-a1e30.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:813360799471:ios:d8d26fa3702fb51528c51a</string>
+	<string>1:936009062615:ios:11857011ffc254c0867892</string>
 </dict>
 </plist>

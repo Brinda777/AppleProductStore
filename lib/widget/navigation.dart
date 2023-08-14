@@ -11,14 +11,14 @@ class Navigation extends StatelessWidget {
     return Container(
       height: 50,
       decoration: BoxDecoration(
-          color: Color(0xff123456),
+          color: Colors.black,
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(15), topRight: Radius.circular(15)),
           boxShadow: [
             BoxShadow(
                 offset: Offset(0, -10),
                 blurRadius: 45,
-                color: Color(0xff123456).withOpacity(0.76))
+                color: Colors.black.withOpacity(0.76))
           ]),
       child: Padding(
         padding: const EdgeInsets.all(12.0),

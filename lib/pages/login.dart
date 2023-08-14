@@ -1,7 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:online_mobile/pages/forgot_password.dart';
+import 'package:online_mobile/pages/forgotPassword.dart';
 import 'package:online_mobile/pages/home.dart';
 import 'package:online_mobile/pages/signup.dart';
 
@@ -11,6 +10,7 @@ class login extends StatefulWidget {
   @override
   State<login> createState() => _loginState();
 }
+
 class _loginState extends State<login> {
   bool _obSecured = true;
   String name = "";

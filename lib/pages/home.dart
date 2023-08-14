@@ -1,9 +1,7 @@
-import 'package:badges/badges.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:online_mobile/services/notification_service.dart';
 import 'package:online_mobile/widget/appbar.dart';
-import 'package:online_mobile/widget/FLoatingbutton/cart.dart';
 import 'package:online_mobile/widget/drawer.dart';
 import 'package:online_mobile/widget/navigation.dart';
 // ignore: unused_import
@@ -62,7 +60,7 @@ class _HomePageState extends State<HomePage> {
   AppBar buildAppBar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color(0xff123456),
+      backgroundColor: Colors.black,
     );
   }
 }

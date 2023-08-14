@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "274865701650",
+    "project_id": "apple-79ed7",
+    "storage_bucket": "apple-79ed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274865701650:android:fe022f7e2b2ccf8cb7a9cb",
+        "android_client_info": {
+          "package_name": "com.company.apple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274865701650-cf50tqkr1m67jdr7ae6urmjtosr93qtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPXZGMeBfHtf6o9PyDIpLMQnFK5Z2nOa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274865701650-cf50tqkr1m67jdr7ae6urmjtosr93qtl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "274865701650-hok7th2aqmqq69l6getptf6q5nlgmoip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineMobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274865701650:android:7d16a8bd51b1e81cb7a9cb",
+        "android_client_info": {
+          "package_name": "com.example.online_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274865701650-cf50tqkr1m67jdr7ae6urmjtosr93qtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPXZGMeBfHtf6o9PyDIpLMQnFK5Z2nOa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274865701650-cf50tqkr1m67jdr7ae6urmjtosr93qtl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "274865701650-hok7th2aqmqq69l6getptf6q5nlgmoip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.onlineMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
